@@ -76,6 +76,6 @@ def predict():
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 
-if __name__ == "__main__":
-    # Run on 0.0.0.0 to allow external access, port 5007
-    app.run(host="0.0.0.0", port=5007, debug=True)
+# if __name__ == "__main__":
+#     # Run on 0.0.0.0 to allow external access, port 5007
+#     app.run(host="0.0.0.0", port=5007, debug=True)
