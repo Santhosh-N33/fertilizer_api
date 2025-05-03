@@ -1,5 +1,5 @@
 # fertilizer_api/app.py
-
+import os
 from flask import Flask, request, jsonify
 import joblib
 import numpy as np
